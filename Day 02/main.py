@@ -31,11 +31,8 @@ def main():
                 task7()
             elif task_number == 8:
                 task8()
-            elif task_number == 9:
-                task9()
             else:
                 print(f"Task {task_number} is not implemented yet.")
-            
         except ValueError:
             print("Invalid input. Please enter a task number or '0' to quit.")
 
