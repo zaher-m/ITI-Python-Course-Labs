@@ -1,0 +1,10 @@
+2025-09-29 12:30:15 INFO user login: john.doe@example.com
+2025-09-29 12:31:02 INFO user login: alice123@domain.org
+2025-09-29 12:32:44 WARN invalid login: not-an-email
+2025-09-29 12:34:01 INFO user login: mark_smith@gmail.com
+2025-09-29 12:35:19 ERROR login attempt: @@wrong@@
+2025-09-29 12:36:55 INFO user login: emily.watson@yahoo.com
+2025-09-29 12:37:42 INFO user login: jane-doe@company.co.uk
+2025-09-29 12:38:22 WARN invalid login: 12345
+2025-09-29 12:39:08 INFO user login: michael99@hotmail.com
+2025-09-29 12:40:10 ERROR login attempt: user_at_mail_dot_com

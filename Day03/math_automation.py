@@ -24,8 +24,8 @@ def math_automation(report_file="math_report.tx"):
     """
     with open(report_file, "w", encoding="utf-8") as f:
         print(f"WRITING TO {report_file} FILE!")
-        f.write("MATH REPORT\n")  # titile 
-        f.write("Number: floor | ceil | square | root | area\n")  # header
+        f.write("MATH REPORT\n")  
+        f.write("Number: floor | ceil | square | root | area\n")  
         for i in range(len(numbers)):
             f.write(
                 f"{numbers[i]:.2f}: {ceils[i]} | {floors[i]} | "
