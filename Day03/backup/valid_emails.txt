@@ -1,0 +1,6 @@
+john.doe@example.com
+alice123@domain.org
+michael99@hotmail.com
+emily.watson@yahoo.com
+mark_smith@gmail.com
+jane-doe@company.co.uk

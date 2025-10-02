@@ -1,5 +1,3 @@
-
-
 def is_a_number(inp: str) -> bool:
     """Check if the input string is a valid integer or float number"""
     try:
@@ -25,6 +23,17 @@ def only_numbers(inp:list) -> list:
             res.append(float(ele))
     return res
 
+def is_list_of_names(inp:list) -> bool:
+    """Check if the input list is a valid list of product names
+    a product name is not correct neme if it contains non-alphanumeric characters
+    """
+
+    if is_list_of_numbers(inp):
+        return False
+    for p in inp:
+        if not all(char.isalpha() for char in p):
+            return False
+    return True
 
 def main_menu():
     """Display the main menu of tasks"""

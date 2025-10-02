@@ -1,6 +1,8 @@
 
+import os, sys
 import random
-from utils import is_a_number
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from Helpers.utils import is_a_number
 from decorators import log_time
 
 

@@ -1,8 +1,8 @@
 
-
 import random
-from  utils import *
-
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from  Helpers.utils import is_list_of_numbers, only_numbers, is_a_number
 
 def task1() -> None:
     inputs = input("Enter 5 numbers space-separated. e.g: 1 2 3 etc.\n")

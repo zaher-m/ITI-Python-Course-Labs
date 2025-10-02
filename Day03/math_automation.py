@@ -1,5 +1,7 @@
 import math
-from  utils import is_list_of_numbers
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from Helpers.utils import is_list_of_numbers
 
 def math_automation(report_file="math_report.txt"):
     pi = 3.14

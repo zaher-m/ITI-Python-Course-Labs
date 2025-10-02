@@ -1,7 +1,9 @@
 
 import json
+import os, sys 
 from collections import defaultdict
-from utils import is_list_of_names, is_list_of_numbers
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from Helpers.utils import is_list_of_names, is_list_of_numbers
 
 def product_transformer(save_file="products.json"):
     

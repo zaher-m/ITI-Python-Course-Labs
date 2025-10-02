@@ -1,6 +1,7 @@
-
-
+import os, sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from Lab_02 import *
+from Helpers.utils import main_menu
 
 def main():
     while True:
