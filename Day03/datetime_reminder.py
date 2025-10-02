@@ -37,5 +37,6 @@ def reminder(reminder_file="reminders.txt"):
                 continue
         
 if __name__ == "__main__":
+    print("\nRunning Task 3: Datetime Reminder (days until date)")
     reminder()
 

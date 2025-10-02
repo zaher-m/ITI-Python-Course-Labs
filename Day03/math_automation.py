@@ -1,9 +1,7 @@
-
-import os
 import math
-from  utils import *
+from  utils import is_list_of_numbers
 
-def math_automation(report_file="math_report.tx"):
+def math_automation(report_file="math_report.txt"):
     pi = 3.14
     inputs = input("Enter a list of numbers comma-separated. e.g: 1,2,3 etc.\n --> ")
     inputs = inputs.split(",")
@@ -42,4 +40,5 @@ def math_automation(report_file="math_report.tx"):
     return
 
 if __name__  == "__main__":
+    print("\nRunning Task 1: Math Automation (floor, ceil, sqrt, circle area)")
     math_automation()

@@ -20,4 +20,5 @@ def log_cleaner(log_file="access.log", cleaned_file="valid_emails.txt"):
 
         
 if __name__ == "__main__":
+    print("\nRunning Task 2: Regex Log Cleaner (extract valid emails)")
     log_cleaner()
