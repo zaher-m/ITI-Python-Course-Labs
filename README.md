@@ -1,6 +1,6 @@
-# ITI Python Labs – Repository Overview
+# ITI Python Course Labs 
 
-This repository contains hands-on Python labs and lecture materials spanning fundamental programming, automation, and object‑oriented programming. Each lab is self‑contained with its own `README.md`, while this root README provides a high‑level map and quick start.
+This repository contains hands-on Python labs from ITI's Python Course, spanning fundamental programming, automation, and object‑oriented programming. Each lab is self‑contained with its own `README.md`, while this root README provides a high‑level overview and quick start.
 
 ---
 
