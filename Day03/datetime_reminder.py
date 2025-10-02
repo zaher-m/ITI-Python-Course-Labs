@@ -26,7 +26,6 @@ def reminder(reminder_file="reminders.txt"):
         
         with open(reminder_file, "a", encoding="utf-8") as f:
             try:
-                print(datetime_object.day, datetime_object.month, datetime_object.year )
                 today = datetime.today()
                 n_days_left = (datetime_object.date() - today.date()).days
 

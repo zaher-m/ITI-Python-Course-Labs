@@ -15,7 +15,7 @@ def log_cleaner(log_file="access.log", cleaned_file="valid_emails.txt"):
     
     with open(cleaned_file, "w", encoding="utf-8") as f:
         f.write("\n".join(valid_emails))
-    
+    print(f"Valid emails saved at {cleaned_file}")
     print(f"Number of unique emails: {len(valid_emails)}")
 
         
